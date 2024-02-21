@@ -1,0 +1,37 @@
+name: flutter_application
+description: "Flutter and Supabase Starter."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.13
+  formz: ^0.6.1
+  get_it: ^7.6.7
+  go_router: ^13.1.0
+  google_fonts: ^6.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  injectable: ^2.3.2
+  package_info_plus: ^5.0.1
+  settings_ui: ^2.0.2
+  supabase: ^2.0.7
+  supabase_flutter: ^2.3.2
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  injectable_generator:
+
+flutter:
+  uses-material-design: true
